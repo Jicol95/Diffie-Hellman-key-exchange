@@ -16,5 +16,3 @@ if __name__ == '__main__':
     Bob = User ("Bob", p, g)
 
     diffie_Hellman_Crude(Alice,Bob)
-
-    Bob.receive_Message(Alice.send_Message())
